@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/pathak">
+        <label for="naam">name: </label>
+        <input type="text" id="naam" placeholder="write" required><br>
+        <label for="papa">father name </label>
+         <input type="text" id="papa" name="pita" value="mahendra"><br>
+        password: <input type="password" placeholder="password" required><br><!--hm direct jese password likha hai vese name bi likh skte hai lekin label attach krne se vh poori trh se attach ho jata hai   -->
+        <label for="date">DOB:</label>
+        <input type="date" id="date" ><br>
+
+        file:<input type="file"><br>
+
+        <label for="rang">color:</label>
+         <input type="color" id="rang"><br>
+
+        range: <input type="range"><br>
+
+        button: <input type="button" value="ok"><br>
+
+        <h3>choose gender : </h3> <br>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+
+        <label for="others">others</label>
+        <input type="radio" id="others" name="gender" value="others"><br>
+
+        <h3>choose lang:</h3><br>
+        <label for="c">c</label>
+        <input type="checkbox" id="c" name="lang" value="c"><br>
+        <label for="java">jva</label>
+        <input type="checkbox" id="java" name="lang" value="java"><br>
+        <label for="python">python</label>
+        <input type="checkbox" id="python" name="lang" value="python"><br><br>
+
+        <label for="country">country</label>
+        <select name="country" id="country">
+            <option value="india">india</option>
+            <option value="us">us</option>
+            <option value="uk">uk</option>
+            <option value="japan">japan</option>
+            <option value="others">others</option>
+        </select><br>
+
+        
+        submit: <input type="submit" value="submit"><br>
+    </form>
+</body>
+</html>
